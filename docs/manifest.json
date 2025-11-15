@@ -1,0 +1,850 @@
+{
+  "generator_version": "1.0.0",
+  "repo_source": "raminpapo/react-grid-layout",
+  "repo_fingerprint": "651a92acafc3a391a8923bf154470ab11176844e",
+  "timestamp_start": "2025-11-15T20:37:53.006333Z",
+  "file_count": 92,
+  "total_bytes": 1230710,
+  "files": [
+    {
+      "path": ".eslintignore",
+      "size": 39,
+      "binary": false,
+      "extension": "",
+      "mtime": 1763238995.069367
+    },
+    {
+      "path": ".npmignore",
+      "size": 207,
+      "binary": false,
+      "extension": "",
+      "mtime": 1763238995.0733669
+    },
+    {
+      "path": "index.js.flow",
+      "size": 264,
+      "binary": false,
+      "extension": ".flow",
+      "mtime": 1763238995.099367
+    },
+    {
+      "path": "index-dev.js",
+      "size": 403,
+      "binary": false,
+      "extension": ".js",
+      "mtime": 1763238995.098367
+    },
+    {
+      "path": ".flowconfig",
+      "size": 300,
+      "binary": false,
+      "extension": "",
+      "mtime": 1763238995.069367
+    },
+    {
+      "path": "yarn.lock",
+      "size": 351874,
+      "binary": false,
+      "extension": ".lock",
+      "mtime": 1763238995.113367
+    },
+    {
+      "path": "webpack-dev-server.config.js",
+      "size": 1027,
+      "binary": false,
+      "extension": ".js",
+      "mtime": 1763238995.111367
+    },
+    {
+      "path": ".eslintrc.json",
+      "size": 828,
+      "binary": false,
+      "extension": ".json",
+      "mtime": 1763238995.069367
+    },
+    {
+      "path": "README.md",
+      "size": 25038,
+      "binary": false,
+      "extension": ".md",
+      "mtime": 1763238995.0753667
+    },
+    {
+      "path": "package.json",
+      "size": 3761,
+      "binary": false,
+      "extension": ".json",
+      "mtime": 1763238995.101367
+    },
+    {
+      "path": "index.html",
+      "size": 150,
+      "binary": false,
+      "extension": ".html",
+      "mtime": 1763238995.098367
+    },
+    {
+      "path": ".travis.yml",
+      "size": 93,
+      "binary": false,
+      "extension": ".yml",
+      "mtime": 1763238995.0743668
+    },
+    {
+      "path": ".prettierignore",
+      "size": 39,
+      "binary": false,
+      "extension": "",
+      "mtime": 1763238995.0733669
+    },
+    {
+      "path": ".gitignore",
+      "size": 222,
+      "binary": false,
+      "extension": "",
+      "mtime": 1763238995.0733669
+    },
+    {
+      "path": ".prettierrc",
+      "size": 374,
+      "binary": false,
+      "extension": "",
+      "mtime": 1763238995.0743668
+    },
+    {
+      "path": "index-dev.html",
+      "size": 424,
+      "binary": false,
+      "extension": ".html",
+      "mtime": 1763238995.098367
+    },
+    {
+      "path": ".browserslistrc",
+      "size": 22,
+      "binary": false,
+      "extension": "",
+      "mtime": 1763238995.069367
+    },
+    {
+      "path": ".packj.yaml",
+      "size": 4644,
+      "binary": false,
+      "extension": ".yaml",
+      "mtime": 1763238995.0733669
+    },
+    {
+      "path": "LICENSE",
+      "size": 1078,
+      "binary": false,
+      "extension": "",
+      "mtime": 1763238995.0753667
+    },
+    {
+      "path": "Makefile",
+      "size": 2241,
+      "binary": false,
+      "extension": "",
+      "mtime": 1763238995.0753667
+    },
+    {
+      "path": "webpack.config.js",
+      "size": 1237,
+      "binary": false,
+      "extension": ".js",
+      "mtime": 1763238995.111367
+    },
+    {
+      "path": "index.js",
+      "size": 417,
+      "binary": false,
+      "extension": ".js",
+      "mtime": 1763238995.098367
+    },
+    {
+      "path": "CHANGELOG.md",
+      "size": 36265,
+      "binary": false,
+      "extension": ".md",
+      "mtime": 1763238995.0743668
+    },
+    {
+      "path": ".babelrc.js",
+      "size": 458,
+      "binary": false,
+      "extension": ".js",
+      "mtime": 1763238995.069367
+    },
+    {
+      "path": "webpack-examples.config.js",
+      "size": 1453,
+      "binary": false,
+      "extension": ".js",
+      "mtime": 1763238995.111367
+    },
+    {
+      "path": "margin.png",
+      "size": 54675,
+      "binary": true,
+      "extension": ".png",
+      "mtime": 1763238995.101367
+    },
+    {
+      "path": ".husky/pre-commit",
+      "size": 78,
+      "binary": false,
+      "extension": "",
+      "mtime": 1763238995.0733669
+    },
+    {
+      "path": ".husky/.gitignore",
+      "size": 2,
+      "binary": false,
+      "extension": "",
+      "mtime": 1763238995.0733669
+    },
+    {
+      "path": "css/styles.css",
+      "size": 2731,
+      "binary": false,
+      "extension": ".css",
+      "mtime": 1763238995.076367
+    },
+    {
+      "path": "__mocks__/react-grid-layout.js",
+      "size": 128,
+      "binary": false,
+      "extension": ".js",
+      "mtime": 1763238995.076367
+    },
+    {
+      "path": "examples/util/generate.js",
+      "size": 1001,
+      "binary": false,
+      "extension": ".js",
+      "mtime": 1763238995.0813668
+    },
+    {
+      "path": "examples/util/example-styles.css",
+      "size": 1620,
+      "binary": false,
+      "extension": ".css",
+      "mtime": 1763238995.0803668
+    },
+    {
+      "path": "examples/util/template.ejs",
+      "size": 1342,
+      "binary": false,
+      "extension": ".ejs",
+      "mtime": 1763238995.0813668
+    },
+    {
+      "path": "examples/util/vars.js",
+      "size": 6516,
+      "binary": false,
+      "extension": ".js",
+      "mtime": 1763238995.0813668
+    },
+    {
+      "path": ".github/labeler.yml",
+      "size": 789,
+      "binary": false,
+      "extension": ".yml",
+      "mtime": 1763238995.0713668
+    },
+    {
+      "path": ".github/PULL_REQUEST_TEMPLATE.md",
+      "size": 2139,
+      "binary": false,
+      "extension": ".md",
+      "mtime": 1763238995.0703669
+    },
+    {
+      "path": ".github/release.yml",
+      "size": 377,
+      "binary": false,
+      "extension": ".yml",
+      "mtime": 1763238995.0713668
+    },
+    {
+      "path": ".github/changelog-configuration.json",
+      "size": 824,
+      "binary": false,
+      "extension": ".json",
+      "mtime": 1763238995.0703669
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "size": 618,
+      "binary": false,
+      "extension": ".yml",
+      "mtime": 1763238995.0703669
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug_report.yml",
+      "size": 4298,
+      "binary": false,
+      "extension": ".yml",
+      "mtime": 1763238995.0703669
+    },
+    {
+      "path": ".github/workflows/packj.yml",
+      "size": 716,
+      "binary": false,
+      "extension": ".yml",
+      "mtime": 1763238995.072367
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 780,
+      "binary": false,
+      "extension": ".yml",
+      "mtime": 1763238995.072367
+    },
+    {
+      "path": ".github/workflows/changelog.yml",
+      "size": 790,
+      "binary": false,
+      "extension": ".yml",
+      "mtime": 1763238995.0713668
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 618,
+      "binary": false,
+      "extension": ".yml",
+      "mtime": 1763238995.072367
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1597,
+      "binary": false,
+      "extension": ".yml",
+      "mtime": 1763238995.072367
+    },
+    {
+      "path": ".github/workflows/label.yml",
+      "size": 237,
+      "binary": false,
+      "extension": ".yml",
+      "mtime": 1763238995.072367
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 523,
+      "binary": false,
+      "extension": ".yml",
+      "mtime": 1763238995.072367
+    },
+    {
+      "path": ".github/workflows/gh-pages.yml",
+      "size": 639,
+      "binary": false,
+      "extension": ".yml",
+      "mtime": 1763238995.0713668
+    },
+    {
+      "path": "test/dev-hook.jsx",
+      "size": 230,
+      "binary": false,
+      "extension": ".jsx",
+      "mtime": 1763238995.102367
+    },
+    {
+      "path": "test/test-hook.jsx",
+      "size": 1708,
+      "binary": false,
+      "extension": ".jsx",
+      "mtime": 1763238995.110367
+    },
+    {
+      "path": "test/util/deepFreeze.js",
+      "size": 1810,
+      "binary": false,
+      "extension": ".js",
+      "mtime": 1763238995.111367
+    },
+    {
+      "path": "test/util/setupTests.js",
+      "size": 633,
+      "binary": false,
+      "extension": ".js",
+      "mtime": 1763238995.111367
+    },
+    {
+      "path": "test/spec/lifecycle-test.js",
+      "size": 36552,
+      "binary": false,
+      "extension": ".js",
+      "mtime": 1763238995.110367
+    },
+    {
+      "path": "test/spec/utils-test.js",
+      "size": 23624,
+      "binary": false,
+      "extension": ".js",
+      "mtime": 1763238995.110367
+    },
+    {
+      "path": "test/spec/__snapshots__/lifecycle-test.js.snap",
+      "size": 460204,
+      "binary": false,
+      "extension": ".snap",
+      "mtime": 1763238995.1093671
+    },
+    {
+      "path": "test/examples/05-static-elements.jsx",
+      "size": 1670,
+      "binary": false,
+      "extension": ".jsx",
+      "mtime": 1763238995.104367
+    },
+    {
+      "path": "test/examples/02-no-dragging.jsx",
+      "size": 1457,
+      "binary": false,
+      "extension": ".jsx",
+      "mtime": 1763238995.103367
+    },
+    {
+      "path": "test/examples/03-messy.jsx",
+      "size": 1830,
+      "binary": false,
+      "extension": ".jsx",
+      "mtime": 1763238995.104367
+    },
+    {
+      "path": "test/examples/test_demo.jsx",
+      "size": 500,
+      "binary": false,
+      "extension": ".jsx",
+      "mtime": 1763238995.107367
+    },
+    {
+      "path": "test/examples/18-scale.jsx",
+      "size": 1523,
+      "binary": false,
+      "extension": ".jsx",
+      "mtime": 1763238995.107367
+    },
+    {
+      "path": "test/examples/.eslintrc.json",
+      "size": 47,
+      "binary": false,
+      "extension": ".json",
+      "mtime": 1763238995.102367
+    },
+    {
+      "path": "test/examples/08-localstorage-responsive.jsx",
+      "size": 2546,
+      "binary": false,
+      "extension": ".jsx",
+      "mtime": 1763238995.105367
+    },
+    {
+      "path": "test/examples/15-drag-from-outside.jsx",
+      "size": 3965,
+      "binary": false,
+      "extension": ".jsx",
+      "mtime": 1763238995.106367
+    },
+    {
+      "path": "test/examples/11-no-vertical-compact.jsx",
+      "size": 1509,
+      "binary": false,
+      "extension": ".jsx",
+      "mtime": 1763238995.105367
+    },
+    {
+      "path": "test/examples/16-bounded.jsx",
+      "size": 1415,
+      "binary": false,
+      "extension": ".jsx",
+      "mtime": 1763238995.106367
+    },
+    {
+      "path": "test/examples/20-resizable-handles.jsx",
+      "size": 1528,
+      "binary": false,
+      "extension": ".jsx",
+      "mtime": 1763238995.107367
+    },
+    {
+      "path": "test/examples/14-toolbox.jsx",
+      "size": 5511,
+      "binary": false,
+      "extension": ".jsx",
+      "mtime": 1763238995.106367
+    },
+    {
+      "path": "test/examples/09-min-max-wh.jsx",
+      "size": 1725,
+      "binary": false,
+      "extension": ".jsx",
+      "mtime": 1763238995.105367
+    },
+    {
+      "path": "test/examples/07-localstorage.jsx",
+      "size": 2365,
+      "binary": false,
+      "extension": ".jsx",
+      "mtime": 1763238995.104367
+    },
+    {
+      "path": "test/examples/12-prevent-collision.jsx",
+      "size": 1608,
+      "binary": false,
+      "extension": ".jsx",
+      "mtime": 1763238995.106367
+    },
+    {
+      "path": "test/examples/21-horizontal.jsx",
+      "size": 1478,
+      "binary": false,
+      "extension": ".jsx",
+      "mtime": 1763238995.107367
+    },
+    {
+      "path": "test/examples/00-showcase.jsx",
+      "size": 4723,
+      "binary": false,
+      "extension": ".jsx",
+      "mtime": 1763238995.103367
+    },
+    {
+      "path": "test/examples/06-dynamic-add-remove.jsx",
+      "size": 3076,
+      "binary": false,
+      "extension": ".jsx",
+      "mtime": 1763238995.104367
+    },
+    {
+      "path": "test/examples/17-responsive-bootstrap-style.jsx",
+      "size": 1822,
+      "binary": false,
+      "extension": ".jsx",
+      "mtime": 1763238995.107367
+    },
+    {
+      "path": "test/examples/13-error-case.jsx",
+      "size": 1459,
+      "binary": false,
+      "extension": ".jsx",
+      "mtime": 1763238995.106367
+    },
+    {
+      "path": "test/examples/01-basic.jsx",
+      "size": 1401,
+      "binary": false,
+      "extension": ".jsx",
+      "mtime": 1763238995.103367
+    },
+    {
+      "path": "test/examples/04-grid-property.jsx",
+      "size": 1478,
+      "binary": false,
+      "extension": ".jsx",
+      "mtime": 1763238995.104367
+    },
+    {
+      "path": "test/examples/10-dynamic-min-max-wh.jsx",
+      "size": 2082,
+      "binary": false,
+      "extension": ".jsx",
+      "mtime": 1763238995.105367
+    },
+    {
+      "path": "test/examples/19-allow-overlap.jsx",
+      "size": 1463,
+      "binary": false,
+      "extension": ".jsx",
+      "mtime": 1763238995.107367
+    },
+    {
+      "path": "lib/ReactGridLayout.jsx",
+      "size": 22603,
+      "binary": false,
+      "extension": ".jsx",
+      "mtime": 1763238995.099367
+    },
+    {
+      "path": "lib/ReactGridLayoutPropTypes.js",
+      "size": 7206,
+      "binary": false,
+      "extension": ".js",
+      "mtime": 1763238995.099367
+    },
+    {
+      "path": "lib/utils.js",
+      "size": 27764,
+      "binary": false,
+      "extension": ".js",
+      "mtime": 1763238995.101367
+    },
+    {
+      "path": "lib/calculateUtils.js",
+      "size": 5711,
+      "binary": false,
+      "extension": ".js",
+      "mtime": 1763238995.100367
+    },
+    {
+      "path": "lib/responsiveUtils.js",
+      "size": 3704,
+      "binary": false,
+      "extension": ".js",
+      "mtime": 1763238995.100367
+    },
+    {
+      "path": "lib/GridItem.jsx",
+      "size": 19829,
+      "binary": false,
+      "extension": ".jsx",
+      "mtime": 1763238995.099367
+    },
+    {
+      "path": "lib/fastRGLPropsEqual.js",
+      "size": 1385,
+      "binary": false,
+      "extension": ".js",
+      "mtime": 1763238995.100367
+    },
+    {
+      "path": "lib/ResponsiveReactGridLayout.jsx",
+      "size": 9989,
+      "binary": false,
+      "extension": ".jsx",
+      "mtime": 1763238995.100367
+    },
+    {
+      "path": "lib/components/WidthProvider.jsx",
+      "size": 2870,
+      "binary": false,
+      "extension": ".jsx",
+      "mtime": 1763238995.100367
+    },
+    {
+      "path": "flow-typed/npm/prop-types_v15.x.x.js",
+      "size": 1562,
+      "binary": false,
+      "extension": ".js",
+      "mtime": 1763238995.098367
+    },
+    {
+      "path": "flow-typed/npm/enzyme_v3.x.x.js",
+      "size": 4883,
+      "binary": false,
+      "extension": ".js",
+      "mtime": 1763238995.082367
+    },
+    {
+      "path": "flow-typed/npm/clsx_v1.x.x.js",
+      "size": 240,
+      "binary": false,
+      "extension": ".js",
+      "mtime": 1763238995.082367
+    },
+    {
+      "path": "flow-typed/npm/jest_v24.x.x.js",
+      "size": 34126,
+      "binary": false,
+      "extension": ".js",
+      "mtime": 1763238995.0833669
+    }
+  ],
+  "docs_created": 184,
+  "bytes_written": 1346581,
+  "timestamp_end": "2025-11-15T20:39:41.526719Z",
+  "checksums": {
+    "./.eslintignore_docs.md": "3247e579dbe4c50d9815093901cfed146687c9bfcf07fed0e56594c01718ee6b",
+    "./.eslintignore_kw.md": "f65c96d5fe4df3f1b7aa6dcc53142e9dce22e839e7c7bb56b40f4ca85d83a707",
+    "./.npmignore_docs.md": "46c81b775a6f50c9c848e30866f85b113b67833660b7042f857e0787b6c6955b",
+    "./.npmignore_kw.md": "5dbb231eec14828f9a803f3d3dfe4b8ec91db14980357ddef4e6fa081199c6ae",
+    "./index.js.flow_docs.md": "9d18f7a98b9a56eee97d576dea4f91cc1dc4edeee01ae2e0abbd6d13d26e0f08",
+    "./index.js.flow_kw.md": "524fdfe2e9e61b8a20b057dab7bbbc197b2a4bb17a33bb5917244fd28b3c982f",
+    "./index-dev.js_docs.md": "5cd5681723fde8be358732b1f7fd393753fa0f74eec6f27de04815be2597eebc",
+    "./index-dev.js_kw.md": "9b5e05e6c0ae1cc10ef8fe9c08df32df792c14aee46968f8e5337671664175d8",
+    "./.flowconfig_docs.md": "5d9ac90b2377cb874bd5a72836bc54c04d2c3ec55d957650feb345c9bf15ca2b",
+    "./.flowconfig_kw.md": "79eb65b8bcbe0131f82efa2be830dc465adbfbe87a7f21ea480ef49ffc8c39fb",
+    "./yarn.lock_docs.md": "57746b7cc5558ff70bed9b1ca980de869d94983aa95f81521ff6aa68b1c09f88",
+    "./yarn.lock_kw.md": "a2cacf646f611bde55cb947525d62ef0a3e24f3bb8e70aa65402bd6a12622d03",
+    "./webpack-dev-server.config.js_docs.md": "c22e003abcea4b431b50e64b5d6af8d50db13a15b505e8b6b4d39b150bb3be7f",
+    "./webpack-dev-server.config.js_kw.md": "4c1207f285495822961aed0e7f267ebfc2db4d084ac34572726d589384295381",
+    "./.eslintrc.json_docs.md": "252782827005d80d9c7992930dfbbada50f7ad627e656c265b7f3e80f6c1b9c0",
+    "./.eslintrc.json_kw.md": "c301ca9c664478db8d75b77ee8313e687aa628d49672f5978c4cfbc2e7a0bd8c",
+    "./README.md_docs.md": "fe924c9e62ed7c4c0a905e45bdf8338e9c3da0324c4803de841bfa4a3032b0c4",
+    "./README.md_kw.md": "caed54d4864a3416e848c6bc040cadcc8c9bd49c483733ee323354739cd95b8f",
+    "./package.json_docs.md": "55eaa213d833386d4cf35267662a165e9f59cba38f6a92496161d6213f41104f",
+    "./package.json_kw.md": "d23468bfd6262b1dd1b800ecbedb9c45cb31cefdfd606d7b661e6190c5db59de",
+    "./index.html_docs.md": "efdf2abbfdf8e3e35abeb94a0ea0e256fc438bc86bd4c4cc14a46ccbffec6a64",
+    "./index.html_kw.md": "2bbcf3d12bed10bd01e4b9a608a147e590dc9a3d0c140666647eddd6e491d934",
+    "./.travis.yml_docs.md": "e454a39bda0f5574e81a2b1b712e9d420e60e5c85ba396f46bf300d525a48ee8",
+    "./.travis.yml_kw.md": "68f6ba664e68688af458428798ada7485c889bf53ac1ddb015f06cf8eff93aaf",
+    "./.prettierignore_docs.md": "2d5c291bdcc1e34c56d44fe41aa38cd9ede5217b5382c659d2d370386402ee3c",
+    "./.prettierignore_kw.md": "b282aa39a25d816c2b6317a63aee5bd0b7d4fc505768b3974c09043da421ea61",
+    "./.gitignore_docs.md": "d4dc382baaedbbfa2ad93eb7f900c023f995f053b361d9aa16145e8aef9f48bc",
+    "./.gitignore_kw.md": "347bd08c549b93946c22d78a153b8c509c1e14a8b1c994ac84ff4ccd7b34be0c",
+    "./.prettierrc_docs.md": "16a0685e94f3b0533dd33a9e7727602e418180214c40beb5354967ae1ad9c695",
+    "./.prettierrc_kw.md": "85c1ce6ba136b9420bff4e1ffed81b8ee630b3b0963afdd35b56045369ad2da7",
+    "./index-dev.html_docs.md": "e79cda592a79fa5ae06bb867e9378bc0790b8755e1c98c405d7ee43ef36815a7",
+    "./index-dev.html_kw.md": "4e2dbe32de5d359357df2ec03afe0acfa62bf58e5be42e8d151d129b8be95765",
+    "./.browserslistrc_docs.md": "24c42d8936896ba5e177eb20f290721d8a1b4f92573ba8c5d2fd195a8813d6b6",
+    "./.browserslistrc_kw.md": "1925d0665f1a43c1d7e7993f725a8e72bba4420449c7535f413b7481dde8fdf6",
+    "./.packj.yaml_docs.md": "e18f31940a7ffac89cb8876ccbcad7c605d2b7df432388360a84c9b230f84ebd",
+    "./.packj.yaml_kw.md": "515692240e8a640059b0a57e0f5259a1870a401ebbbf279c3021d2c1b3e18358",
+    "./LICENSE_docs.md": "b29e68e38ef7cfe8a54ca299fb30d7420a83551d2938e9f0a2cf824b6743026c",
+    "./LICENSE_kw.md": "f2927faf7953b00f1fe99dadeb7b74e7b221470a763d2e194b63db75c4d03bb1",
+    "./Makefile_docs.md": "daa9d7da7d83e7189f69bb4c401d3c330b5002b91fbbf7a0d3414d7bc9f0af93",
+    "./Makefile_kw.md": "f03a44d328ad8ae22a57d0989f52d3770e1ae906bdaaba9beff582d4d735a5c3",
+    "./webpack.config.js_docs.md": "3f4161309fa4a32fe7d690edd25043a4fe7db44c09926e3b51eea82d70758dcf",
+    "./webpack.config.js_kw.md": "25c3b4f36f6922319cb12ef6d30db6ad1de6b414b65f908c3791eb7fc592b7d9",
+    "./index.js_docs.md": "5f44b4e684510b6fad35967ac3ed2e68f0ee2efcbb6fde46b0b09371ffea38ef",
+    "./index.js_kw.md": "30f8676f166544adf8a257c9daf15228de2777a0911245ac42280f73fd0575e7",
+    "./CHANGELOG.md_docs.md": "c4f92a8479da79bb1ff8e1f0286f7af0514f2d02eb6d2a65bfb1b0c5c158cb2d",
+    "./CHANGELOG.md_kw.md": "fdec355c09013e2b2958cb534f791f5d8f01d96859b670533fca76db0f0b4d29",
+    "./.babelrc.js_docs.md": "b837f284c98b0f2fdb2061879cb16f2c13587b7b0df1177b4d9502f88d471707",
+    "./.babelrc.js_kw.md": "924005babf2c6245d5e5d75be2574cc45f2af33139541847488539af2c1f627d",
+    "./webpack-examples.config.js_docs.md": "b191585611c7810ca085323af727af78393696e7dc3ccd22f2282b2062f88da2",
+    "./webpack-examples.config.js_kw.md": "57408b75353dcd74e728a848a6da2dfcbff3bbda525bd4c4d78382967939719c",
+    "./margin.png_docs.md": "44d6f84f01e42dc18c675353b5611fc58edc830928624d0581aa16b07fd26860",
+    "./margin.png_kw.md": "2d11b99c988bcc61e3ce91ab826b65745e9e92809e26e0d7a049b864a4fc29d9",
+    ".husky/pre-commit_docs.md": "2e76aae15f666fbc26ac7c9512be44c9547d25a0c9d367dac786d68c76a89dc9",
+    ".husky/pre-commit_kw.md": "86a8f91fde4ce5fbac2c38ab92b6e4df7de6f1408d521946f5a82945cf81b23a",
+    ".husky/.gitignore_docs.md": "c12eebcc9b221f11a6aa486f188603dcaec038aa5e204ef7d5d2dd5cd13bb715",
+    ".husky/.gitignore_kw.md": "120637d9e403cd5f71c4f69ee0bc97f422fce64117545fc145b45063ad25a2ff",
+    "css/styles.css_docs.md": "51278d9291838e9baa57360989e91a6d1fed0906c9e85897dd72dc87b9839094",
+    "css/styles.css_kw.md": "08977ce86279d7defba8b5807d16115743f1e163035c66215a4851e0054947a0",
+    "__mocks__/react-grid-layout.js_docs.md": "9d15b2a82f444e19eac0b96cf4b653926e201fe277cba05842eb5f8efa0bb4fa",
+    "__mocks__/react-grid-layout.js_kw.md": "d88acc7544e12bcd5e2bc11c4134b075e214c29948dd4d8714e167d86b445f7c",
+    "examples/util/generate.js_docs.md": "e9d752a66db66543732e56928513e4804f6a69c1d076b4d4480e21d117bed8a2",
+    "examples/util/generate.js_kw.md": "af5f20e54a7c62843b279ee52d25058f293dd1cf082b61c2544050c0b7efe43a",
+    "examples/util/example-styles.css_docs.md": "db912a80d8f1e4b763673dfe3c2b4ca9226c8ce44e1ed8b7e95038cebc37bbe9",
+    "examples/util/example-styles.css_kw.md": "cfbc9be3476b8893c719d3002fbf103fe268f85ca8e2f2e3085902f7ee240975",
+    "examples/util/template.ejs_docs.md": "3db18726b7ec7e17c034df56828c9c9c2345f77a974e4903953467270fe470e6",
+    "examples/util/template.ejs_kw.md": "8dc1ae3f5c0e81693e6c4e22cc2a5310c44b976699356f998e2e2c9a8a35f06b",
+    "examples/util/vars.js_docs.md": "0e0aee66ea2bb060bf43feff9f2a250fa2b574fb732e2966ccc14c51ebeb84cc",
+    "examples/util/vars.js_kw.md": "0a4c208ba01c30de9f4b0d837c91fb471a01cf2760f96b29e9dfe06d253374af",
+    ".github/labeler.yml_docs.md": "df4259af251840612a0aea0ec2c925d408bbf801c152692f99933ff43c8dd44e",
+    ".github/labeler.yml_kw.md": "7d30b2ec050d0774488c1b50645b7ed18a44645f9644ff7177726e48e47a9252",
+    ".github/PULL_REQUEST_TEMPLATE.md_docs.md": "7e69f07ada5ebbe12bea2bd3bc82583a73fa0e41b02051d25ee25b1b9dec6c07",
+    ".github/PULL_REQUEST_TEMPLATE.md_kw.md": "38bfafdcd34a32293708091ae60aea141f75cabf40b01b549516a110e3653377",
+    ".github/release.yml_docs.md": "6aca3064da50b1df9da98f299a7b231e3af7c426e9ccb87562569eb87e9b94f8",
+    ".github/release.yml_kw.md": "581e13f0a5cc0b3545d6c5f61737ed5492cfdbfdac5a4c6c7cb9ece2fc9bcfec",
+    ".github/changelog-configuration.json_docs.md": "cec9db61f226f8e09ff2febe6140fccb6de48d0b242971f4baa2621dd66088b8",
+    ".github/changelog-configuration.json_kw.md": "c359391cf71ecf76701250a40a8091c05d855816d5512c1d5fbaa59c91a94812",
+    ".github/ISSUE_TEMPLATE/config.yml_docs.md": "b1dbb6e93e53be5710be3178e6270e3370973082dac3214f8aac6f9a5e1e42e9",
+    ".github/ISSUE_TEMPLATE/config.yml_kw.md": "7cc7913c92d3f3dfa700a99a113c0123ea2e6f0bacbaa2f4aa867f3d397fb41f",
+    ".github/ISSUE_TEMPLATE/bug_report.yml_docs.md": "a1e3335470012d1c8c5d9696558863cf631fd18f976063097953dd1b16a5a7b3",
+    ".github/ISSUE_TEMPLATE/bug_report.yml_kw.md": "9f538c0f5d3a9a1c2db1ca26bdc08993d24d03c0c1ed9c967e8311b4ff6d7f40",
+    ".github/workflows/packj.yml_docs.md": "8099b6c96f651369aff53349ecbd48474cd75356af52f62e83297dd95b10eb6f",
+    ".github/workflows/packj.yml_kw.md": "55d82a0a255bb47804972ab346ea6ffacb636419da918f8a28d85f83fb4be572",
+    ".github/workflows/stale.yml_docs.md": "1c753a46428603a153ba3ac9fe2c5efd848543e07c6f3533ea90cf24f57d0b25",
+    ".github/workflows/stale.yml_kw.md": "cd81a50252d1f9e90c552be5aaa59042967c9b17445458ee1a4b30eedc7fc821",
+    ".github/workflows/changelog.yml_docs.md": "f0ae8bf21b393388eb36e34a6d601a2751f3682937db5bb004c3a3d6bb457954",
+    ".github/workflows/changelog.yml_kw.md": "31ad967f9ee60bcd178d00a6fbdeca840b5c5e534ee73985e1f9063bbf524097",
+    ".github/workflows/lint.yml_docs.md": "c808f37fa620f7a3e3fcf5686b25a53f64e8c3174b1eff63c5fc184ddead07f1",
+    ".github/workflows/lint.yml_kw.md": "c0d21be7197b6f4ccf2f086f18cbe080f87753283178636d137e0625e6626a73",
+    ".github/workflows/release.yml_docs.md": "5e34b4696b52d1925653d5cf0bdc792fb4315026a99460b18431f0ec577c0d41",
+    ".github/workflows/release.yml_kw.md": "7e59108a19bdac25f7e9843df07be00e0e5f698ae3d9801115fe8a39fc7dbc04",
+    ".github/workflows/label.yml_docs.md": "643707b9af9dcd6c5526196ce32df429c5df219d15239d31a709d73dc8ee1233",
+    ".github/workflows/label.yml_kw.md": "2caa1e52f6a9752b93ea9c2a78c016146f65931b66aa7a8d18de80fde05e0b01",
+    ".github/workflows/test.yml_docs.md": "3d86820a68c90eabeb7f9806186dc3391c5f30d181382a32e5c7ed87ff9a69f9",
+    ".github/workflows/test.yml_kw.md": "96e978500ad4c131ebf606f2b173452fa8c0d885b47b730087d535589d154f22",
+    ".github/workflows/gh-pages.yml_docs.md": "6cd5e8deae2cc7f73769ceae4e3cb1c1085eba2172fb2f8ac0a49d3826ba35f2",
+    ".github/workflows/gh-pages.yml_kw.md": "a015d36d5aba3fa3754b6b96e75cc3debe448202e62e2a63a83a277f64d9b92f",
+    "test/dev-hook.jsx_docs.md": "bd7ff4dd1737a95a5d32ebb9cb1ac2fe97163649a4dcb6fce61f17a13454a563",
+    "test/dev-hook.jsx_kw.md": "166b66d66ae427b4df1da9d22d22fbc8994186f3dde6c2a321ac7df4cdbef91f",
+    "test/test-hook.jsx_docs.md": "bc55f9f7da98324f0dde73f13f28ceb6583084c0d4b7af5b32ac0e7f50fd9785",
+    "test/test-hook.jsx_kw.md": "9f624055c9bfa6c8ea2eaca2e8e1320caa6219ed3030ab74a2d0e5224a195e36",
+    "test/util/deepFreeze.js_docs.md": "2c3b3a644e46584b3dae3490a8505ad84f36691924369cc595fae6ef9f91db79",
+    "test/util/deepFreeze.js_kw.md": "2e96d407fe1ae127d156f4d7183d22fb6d7a7502e78afba801c393ac2a6c087e",
+    "test/util/setupTests.js_docs.md": "62edc7f341ed2aa474fd11e150f3691fa7ab645e5acf4aad04ad6cf2b159aee9",
+    "test/util/setupTests.js_kw.md": "e28d55c15b026887555c40eec7b48753874019319e1f913b68ef49f4d56a6033",
+    "test/spec/lifecycle-test.js_docs.md": "5d83db6ebedefcba6157434dba58478bd55dd85c79e94e27474fbd165fa879f8",
+    "test/spec/lifecycle-test.js_kw.md": "526d4208ed7b64930621e975dca3a968a80e2d13e518d316746d7d4843ad46fd",
+    "test/spec/utils-test.js_docs.md": "de32450970e16000fc11749fc262301e7d329610ef7ff07bc285acc135053f2f",
+    "test/spec/utils-test.js_kw.md": "90dc7be308e7679a420dffa566bf5adc08652ad0051402c512c9acbccbabeff5",
+    "test/spec/__snapshots__/lifecycle-test.js.snap_docs.md": "36e2ad4a182275a7bc11520890c897964b049c8616bfcef79bc313943dbfac31",
+    "test/spec/__snapshots__/lifecycle-test.js.snap_kw.md": "e3d44ecca44f4f81623bbacd112de82c60c35e3b84ce01bcf231c5e66a7bdc4c",
+    "test/examples/05-static-elements.jsx_docs.md": "6df8a028bb20b7bfcebea5099d25c4eeae13b99b2e6edc47df3ed87f7cdcb953",
+    "test/examples/05-static-elements.jsx_kw.md": "cbdbb5ee291fb14722c14907574418c25fbe9011b5e5559361185657f0cfc336",
+    "test/examples/02-no-dragging.jsx_docs.md": "158d4bb652e831a5949ab3853d346e0694b3931c838c1499021605c1310c8a62",
+    "test/examples/02-no-dragging.jsx_kw.md": "62fa1840353959778397ddced14c429657f07adb1e25d9b55dbb44dedf02473f",
+    "test/examples/03-messy.jsx_docs.md": "380c521d956fe1488ad5a079d2b4f705bef0a3b47ce6a0522cd46539aea8bbf6",
+    "test/examples/03-messy.jsx_kw.md": "24ebc708ad50e08837fab0035e642e6442fed27e85c0dfdea18627139faa7374",
+    "test/examples/test_demo.jsx_docs.md": "ce6f47df8c9cd6bee10523951eedd24623232acd94ff5191276b71373519389c",
+    "test/examples/test_demo.jsx_kw.md": "a25f8c169a31047c145e85c25c96e49a53b242a605adcbcaa1c630531e0006d4",
+    "test/examples/18-scale.jsx_docs.md": "951c4caed0eecd270a372bb1ba8f6cea124a5e44881914c59a5967d713c516b4",
+    "test/examples/18-scale.jsx_kw.md": "7220fdbc3831714a191dbab78a464a1627b215a65bf404adc232ff1b44fcdad5",
+    "test/examples/.eslintrc.json_docs.md": "f816fd60a5cbf735822e4cc4533a8abc71818016856fd1c764abb099ee4297e8",
+    "test/examples/.eslintrc.json_kw.md": "2ba2e2026b9744a956ab39bd1af78850f77a942f7b359845ff81e5082e95c70b",
+    "test/examples/08-localstorage-responsive.jsx_docs.md": "d1fa401b3bff696ff5cdbecceaaa918951e04bce30e718bc6474ef7f72e4d1ed",
+    "test/examples/08-localstorage-responsive.jsx_kw.md": "71211562bbd7ac218adb8db2b36315c9590efc1542cb0b207d3071d2702b8a56",
+    "test/examples/15-drag-from-outside.jsx_docs.md": "a4ecf64c1dd93174b2152300d795691b8f03330f1d85bfe18ebdae1a1cce0159",
+    "test/examples/15-drag-from-outside.jsx_kw.md": "41befbe2b3235da369252c560f8a1e801fd73fb65f589f4188b8ebe458427c6b",
+    "test/examples/11-no-vertical-compact.jsx_docs.md": "c45d071db6e315c78125ab2388bcf439d9a2ead36b62f097a0b24ee53d192ffd",
+    "test/examples/11-no-vertical-compact.jsx_kw.md": "cbb2f9220844450569b105046b7eba7febf58a5a9d1eedf935c9efb89cdfd9cf",
+    "test/examples/16-bounded.jsx_docs.md": "ce80fea519324b56360cd2d478fd9a8d46ee4054b241096a7c430d01027bb29c",
+    "test/examples/16-bounded.jsx_kw.md": "fb131dbd8d51891cda77104f5e0ff2e414917202539097508862d9455e888746",
+    "test/examples/20-resizable-handles.jsx_docs.md": "bfdb7e4172434e5f90a1340e6a671afbfa8791b489f64ce99fe6b99b64821bb8",
+    "test/examples/20-resizable-handles.jsx_kw.md": "850ed4b7da7ac5b0c5e307c79297b2642dc270fec5d2f1811233484c8f8aad6a",
+    "test/examples/14-toolbox.jsx_docs.md": "49d5000c1d7140c9f0b64d24392f11d56f326c31926e3bf4f560941cab900e89",
+    "test/examples/14-toolbox.jsx_kw.md": "40e474a95f881ff4a34ee469523581d56d6bb5b9fb753dd03b7eefa207b39519",
+    "test/examples/09-min-max-wh.jsx_docs.md": "87ae75d8fad5d2e00ca9919b4ecd6f2103c601f4a674cb1463e756faa64d3d8e",
+    "test/examples/09-min-max-wh.jsx_kw.md": "fce0d0c4911df5864585c292a10221655de91860499037eb889ad00c84a7c2ab",
+    "test/examples/07-localstorage.jsx_docs.md": "faf93e5af7361ddc0804136d7ba8cdb31a8d9dfb706ee1e01e44bfa143301852",
+    "test/examples/07-localstorage.jsx_kw.md": "30bc7f5c6e1ecba99f1a7cd4e2e9bf2b9eb3d2c152fd0c68e5353c3ab3969491",
+    "test/examples/12-prevent-collision.jsx_docs.md": "3586df3c7f7bb7d21c94cf79c181ab8b59c9422ab0b21a49971822c5af19f36f",
+    "test/examples/12-prevent-collision.jsx_kw.md": "24edafb1a0a341ed691e2cc606b282929c953e34b729754bbb60fa519c10cac8",
+    "test/examples/21-horizontal.jsx_docs.md": "7e6995bf36f027c3af2649df4293f675812079bfb838f3d52d74a6fa5ab05723",
+    "test/examples/21-horizontal.jsx_kw.md": "b244c0b94c0621707af72f69385aa52a0f5655d18901de0856950785f1651326",
+    "test/examples/00-showcase.jsx_docs.md": "fa551404bbd7331feb0131f311a0cf3837c1ba954b0a8189bf65a7a7a5332542",
+    "test/examples/00-showcase.jsx_kw.md": "1855739fabfe03a01e29bbadbc5559ecb09d990f59266db03390e09c1d64a7d3",
+    "test/examples/06-dynamic-add-remove.jsx_docs.md": "411dee7ae517f36652829be1c2951aa220ae2d0366e7c2e0eb419c4e7dfd7ded",
+    "test/examples/06-dynamic-add-remove.jsx_kw.md": "4db0a60e154fcbbd577b71e3326c6bc349fd3fcd8d71238be63bf4718092a54e",
+    "test/examples/17-responsive-bootstrap-style.jsx_docs.md": "cbe881a24a71c154f8e38c8584f122c893712407410cfbe84fd317696fda0883",
+    "test/examples/17-responsive-bootstrap-style.jsx_kw.md": "b3b9d0e8fde47e94b3702a7ddc363cc31a37edf09c64ad1fc9222e00ab6dde5d",
+    "test/examples/13-error-case.jsx_docs.md": "8fc2a725f3d0a3aec8eafd9bca1e37a2ef6e70e32390791d8ddaf0bce1a1e7b2",
+    "test/examples/13-error-case.jsx_kw.md": "f94a800a6e4dc7c3e84e1bc2769ea0c82775c24bcab9581bc1001670fb976be7",
+    "test/examples/01-basic.jsx_docs.md": "921e16b69de63dce64b2f6492d600f41084e9b9e427fc8df69c41f3b1f6cdd27",
+    "test/examples/01-basic.jsx_kw.md": "d7f82ef5cd9306fe6d3e44dfa30d543a3488ac5b4b2d328415e7d175282fad02",
+    "test/examples/04-grid-property.jsx_docs.md": "20eba2df4359d03e59a7318b1978ae4e7e0eaf27d67c3bf3f0484d6646b08499",
+    "test/examples/04-grid-property.jsx_kw.md": "9521f25bb7ee35ce9106d0866634cd168c8ecb02cd7916328b12ee184e162e4a",
+    "test/examples/10-dynamic-min-max-wh.jsx_docs.md": "57077e4708973cef83856d3528a02c4dec68299c5e6794904676746aca399e2b",
+    "test/examples/10-dynamic-min-max-wh.jsx_kw.md": "87c3918f3d5f09c2ec1975fe5616d5e3d45d5e9f0f0b8cfe4532b6f2b00de95c",
+    "test/examples/19-allow-overlap.jsx_docs.md": "8d6e2cfc24a5b79502f8115362a3f94fe347991109e2df70e3c1614a004fe4c8",
+    "test/examples/19-allow-overlap.jsx_kw.md": "beb8fd390dc32e300131a5e452920d3255775fe75636cd2cf34fe826a190f918",
+    "lib/ReactGridLayout.jsx_docs.md": "9410f7cf9c7f98b842ce19fd5bbcf67da0b37c262da2a84696c4cd419e3c5090",
+    "lib/ReactGridLayout.jsx_kw.md": "7362ead3fae621c5ea1c18249af6fc164a78c3ce087d441fb1c9b2efee0eaa62",
+    "lib/ReactGridLayoutPropTypes.js_docs.md": "abbf317862d3147fef898fae8fae6734f90213ebd69d63f60ed03e7bb7a63275",
+    "lib/ReactGridLayoutPropTypes.js_kw.md": "876c88ac0e489f16b05f984ce4b0bd7230393edf1c158459e45cf0e646c646fa",
+    "lib/utils.js_docs.md": "95189ecbd282a356f6e438156f6a0176cca239f8c7eec60a5aca2f845ee9593b",
+    "lib/utils.js_kw.md": "2e31786f507ad68f84e6c0aff611f41fbb629dfbbc761b953e2bfd5d0a01b21a",
+    "lib/calculateUtils.js_docs.md": "1a63a89767f95b00b554594b90b5ee8a2c1dddf015a582094cb6bcc717ade9c0",
+    "lib/calculateUtils.js_kw.md": "15d579bc7cb08fd9e53e9b5060c06d9ed347e19144a80507047eac1d2cf94386",
+    "lib/responsiveUtils.js_docs.md": "a16498ffd705d165d86f1895f321864833585ccc310a123a30214afdb2d6fd72",
+    "lib/responsiveUtils.js_kw.md": "2d86f01d14b871fa68f5fd61ade4a1b5f34de62b23970eb97909d6b9a3174278",
+    "lib/GridItem.jsx_docs.md": "3bb980d804b6a0a6cc67fb540d6cad4b192f1901e5b245ef6545b431fc0542d2",
+    "lib/GridItem.jsx_kw.md": "cb32f6199fecaba44aa257cac485b249849c1d0780cde564fac44ea8dc18200b",
+    "lib/fastRGLPropsEqual.js_docs.md": "9960dad1535ca16f51029b69541a2134f6bce88aa1c1302f09020fad8530f734",
+    "lib/fastRGLPropsEqual.js_kw.md": "81737c52c928e90f4d990715a852a8c3b34dd82a635d3da5a1af291107c525d3",
+    "lib/ResponsiveReactGridLayout.jsx_docs.md": "59af68874ce0760b7c7738570f116c00230a322f1adc25f14217d6e908d39159",
+    "lib/ResponsiveReactGridLayout.jsx_kw.md": "9577ed1eae23a07d49f8309355f460f3e2789528abe298bfb99e541ed02420a8",
+    "lib/components/WidthProvider.jsx_docs.md": "7155cbb6590083542ee2fe9985354d5ae2798564c32f6453a24cf2917fc8f21b",
+    "lib/components/WidthProvider.jsx_kw.md": "b2aa99ee3fb9aae1e92e0c9bf101e5225bddbbe0aa5c6a7968d70bf2c9fadeb7",
+    "flow-typed/npm/prop-types_v15.x.x.js_docs.md": "609b40b2cefc694e33a6daa924618199e479c53500cca7096402faef02b6a452",
+    "flow-typed/npm/prop-types_v15.x.x.js_kw.md": "5bea09cc657dccf164ab258ebca215bc25940355e230497e2d61e762ba96005c",
+    "flow-typed/npm/enzyme_v3.x.x.js_docs.md": "ab990ecbd96731212668eb76aed10fdc80101c59a1b285f3a5bcf655eb0c63ba",
+    "flow-typed/npm/enzyme_v3.x.x.js_kw.md": "b5d29fe0cb1c8255a2254aed68143c4b40a25b9c98bfe9394d11a0ee6ce64a6c",
+    "flow-typed/npm/clsx_v1.x.x.js_docs.md": "00eb25812707a8aa494880744b4ab56b45ec66d964109f815c29653607711f67",
+    "flow-typed/npm/clsx_v1.x.x.js_kw.md": "6c9ee43c9296be191e0214adf127f42f7df6de9036c74bdc4727f7c9d963782f",
+    "flow-typed/npm/jest_v24.x.x.js_docs.md": "647a1358cb76c0507f4b37caa1f590eea26f16f05e0b2c9c4f443aa893c4970b",
+    "flow-typed/npm/jest_v24.x.x.js_kw.md": "dd63cba30621ef5e1c078237ffe429b55f0a0fc1ab2a550847d762df9c8c7767"
+  },
+  "stats": {
+    "files_processed": 92,
+    "docs_created": 184,
+    "keywords_extracted": 284,
+    "bytes_written": 0,
+    "errors": []
+  }
+}

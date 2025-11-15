@@ -1,0 +1,144 @@
+# Documentation: Makefile
+
+## File Metadata
+
+- **Path**: `Makefile`
+- **Type**: No extension
+- **Size**: 2241 bytes (2.19 KB)
+- **Lines**: 91
+- **Last Modified**: 2025-11-15T20:36:35.075367
+
+## Source Code
+
+```
+.DELETE_ON_ERROR:
+
+EXEC = npm exec --
+DIST = ./dist
+BUILD = ./build
+LIB = ./lib
+TEST = ./test
+EXAMPLES = ./examples/*.{js,html}
+MIN = $(DIST)/react-grid-layout.min.js
+MIN_MAP = $(DIST)/react-grid-layout.min.js.map
+
+.PHONY: test dev lint build clean install link
+
+
+build: clean build-js $(MIN)
+
+clean:
+	rm -rf $(BUILD) $(DIST)
+
+clean-example:
+	rm -rf $(EXAMPLES)
+
+dev:
+	@$(EXEC) webpack serve --config webpack-dev-server.config.js \
+	  --hot --progress
+
+# Allows usage of `make install`, `make link`
+install link:
+	@npm $@
+
+# Build browser module
+dist/%.min.js: $(LIB) $(BIN)
+	@$(EXEC) webpack
+
+build-js:
+	@$(EXEC) babel --out-dir $(BUILD) $(LIB)
+
+# Will build for use on github pages. Full url of page is
+# https://react-grid-layout.github.io/react-grid-layout/examples/00-showcase.html
+# so the CONTENT_BASE should adapt.
+build-example: build clean-example
+	@$(EXEC) webpack --config webpack-examples.config.js
+	env CONTENT_BASE="/react-grid-layout/examples/" node ./examples/util/generate.js
+
+# Note: this doesn't hot reload, you need to re-run to update files.
+# TODO fix that
+view-example: build-example
+	@$(EXEC) webpack serve --config webpack-examples.config.js --progress
+
+# FIXME flow is usually global
+lint:
+	@$(EXEC) flow
+	@$(EXEC) eslint --ext .js,.jsx
+
+test:
+	env NODE_ENV=test $(EXEC) jest --coverage
+
+test-watch:
+	env NODE_ENV=test $(EXEC) jest --watch
+
+test-update-snapshots:
+	env NODE_ENV=test $(EXEC) jest --updateSnapshot
+
+release-patch: build lint test
+	@$(call release,patch)
+
+release-minor: build lint test
+	@$(call release,minor)
+
+release-major: build lint test
+	@$(call release,major)
+
+publish:
+	git push --tags origin HEAD:master
+	npm publish
+
+define release
+	VERSION=`node -pe "require('./package.json').version"` && \
+	NEXT_VERSION=`node -pe "require('semver').inc(\"$$VERSION\", '$(1)')"` && \
+	node -e "\
+		['./package.json'].forEach(function(fileName) {\
+			var j = require(fileName);\
+			j.version = \"$$NEXT_VERSION\";\
+			var s = JSON.stringify(j, null, 2);\
+			require('fs').writeFileSync(fileName, s + '\\n');\
+		});" && \
+	git add package.json CHANGELOG.md $(MIN) $(MIN_MAP) && \
+	git commit -nm "release $$NEXT_VERSION" && \
+	git tag "$$NEXT_VERSION" -m "release $$NEXT_VERSION"
+	npm pack --dry-run
+endef
+
+```
+
+## High-Level Overview
+
+This file (Makefile) is part of the repository structure.
+
+## Detailed Analysis
+
+### Structure
+
+Structure analysis not applicable for this file type.
+
+### Components and Functions
+
+Component analysis not applicable for this file type.
+
+### Dependencies
+
+No external dependencies detected.
+
+## Usage Examples
+
+Refer to other files in the repository for usage examples.
+
+## Related Files
+
+Related files can be found by examining:
+
+- Files in the same directory: `./`
+
+
+## Notes
+
+- **Performance**: No specific performance concerns
+- **Security**: Review for potential vulnerabilities if handling user input
+- **Maintainability**: Manageable file size
+
+---
+*Documentation generated on 2025-11-15T20:39:40.695983Z*
